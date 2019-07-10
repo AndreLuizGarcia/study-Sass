@@ -1,0 +1,17 @@
+@each $item in banana, maca, abacaxi {
+  .#{$item} {
+    @if ($item == maca) {
+      padding: 20px
+    }
+
+    @if ($item == banana) {
+      margin: 30px;
+    } @else if ($item == abacaxi) {
+      margin: 20px;
+    } @else {
+      margin: 10px
+    }
+
+    background-image: url('images/#{$item}.png');
+  }
+}
