@@ -1,0 +1,3 @@
+sass sass/imports.scss imports.css --sourcemap=none --style=expanded
+
+sass --watch sass/variaveis.scss:variaveis.css --sourcemap=none --style=expanded
