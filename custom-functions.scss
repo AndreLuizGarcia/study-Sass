@@ -1,0 +1,8 @@
+@function multiply($n1, $n2: 50) {
+  //logic
+  @return #{$n1 * $n2}px;
+}
+
+button {
+  margin: multiply(10, 20)
+}
